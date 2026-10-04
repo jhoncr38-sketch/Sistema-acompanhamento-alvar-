@@ -1,0 +1,14 @@
+﻿classificacao;classificacao_codigo;licenca;efeito;fundamento
+Baixo Risco A;baixo_risco_a;alvara;dispensada;"Decreto nº 24.861/2023, art. 2º; LC nº 5.788/2022, art. 5º"
+Baixo Risco A;baixo_risco_a;vigilancia;dispensada;"Decreto nº 24.861/2023, art. 2º (""demais licenciamentos municipais, tais como Licenças Ambientais e Sanitárias"")"
+Baixo Risco A;baixo_risco_a;ambiental;dispensada;"Decreto nº 24.861/2023, art. 2º (""demais licenciamentos municipais, tais como Licenças Ambientais e Sanitárias"")"
+Baixo Risco A;baixo_risco_a;bombeiros;analise_separada;Decreto nº 24.861/2023, art. 3º: a dispensa não exime das normas de prevenção contra incêndio e pânico, fiscalizadas pelos órgãos competentes
+Não enquadrada como Baixo Risco A;nao_baixo_risco_a;alvara;exigivel;"Decreto nº 24.861/2023, art. 3º, § 2º; LC nº 5.788/2022, art. 11 (redação da LC nº 6.048/2023)"
+Não enquadrada como Baixo Risco A;nao_baixo_risco_a;bombeiros;analise_separada;Prevenção contra incêndio e pânico: competência do Corpo de Bombeiros (Decreto nº 24.861/2023, art. 3º)
+Dispensa de Licença;dispensa_licenca;vigilancia;dispensada;"Decreto nº 24.861/2023, art. 4º, I: Declaração de Dispensa de Licença Sanitária, após solicitação e pagamento da taxa; não dispensa o Alvará (§ 1º)"
+Dispensa de Licença;dispensa_licenca;ambiental;dispensada;"Decreto nº 24.861/2023, art. 4º, II: Declaração de Dispensa de Licença Ambiental de Operação (LO), após solicitação e pagamento da taxa; não dispensa o Alvará (§ 1º)"
+Médio Risco;medio_risco;vigilancia;exigivel;"LC nº 5.788/2022, art. 4º, II (redação da LC nº 6.048/2023): emissão automática após o registro; vistoria posterior (§ 2º)"
+Médio Risco;medio_risco;ambiental;exigivel;LC nº 5.788/2022, art. 4º, II e § 5º (redação da LC nº 6.048/2023): não afasta as regras de licenças ambientais
+Alto Risco;alto_risco;vigilancia;exigivel;LC nº 5.788/2022, art. 4º, III e § 3º: vistoria prévia
+Alto Risco;alto_risco;ambiental;exigivel;LC nº 5.788/2022, art. 4º, III e § 3º: vistoria prévia
+Competência Estadual;competencia_estadual;vigilancia;analise_separada;Decreto nº 28.436/2025, art. 1º: licenciamento sanitário de competência estadual

@@ -1,0 +1,10 @@
+{
+ "fonte": "IBGE — Serviço de dados (API de CNAE v2)",
+ "url": "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses",
+ "data_acesso": "2026-10-04",
+ "versao": "CNAE 2.3 (subclasses)",
+ "registros": 1332,
+ "sha256_resposta_original": "0f41af4d23c80b433eb75b8b4da423562a28137b2a55693bc6cabd6df155c482",
+ "arquivo": "ibge_cnae_2.3_subclasses.csv",
+ "uso": "Somente validação dos códigos e descrições extraídos da legislação."
+}

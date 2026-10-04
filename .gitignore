@@ -1,0 +1,14 @@
+node_modules
+dist
+dev-dist
+*.local
+.env
+.env.*
+!.env.example
+.vite
+coverage
+supabase/.temp
+supabase/.branches
+supabase/functions/_shared/monitoring.js
+__pycache__/
+*.pyc

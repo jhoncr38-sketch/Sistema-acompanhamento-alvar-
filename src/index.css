@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+/* Paleta extraída da referência aprovada (docs/referencia/layout-aprovado.png). */
+@theme {
+  --font-sans: "Roboto", ui-sans-serif, system-ui, "Segoe UI", sans-serif;
+
+  --color-navy-950: #071a31;
+  --color-navy-900: #0b2340;
+  --color-navy-850: #0d2949;
+  --color-navy-800: #0f2d52;
+  --color-navy-700: #124890;
+  --color-navy-600: #1a5aa8;
+
+  --color-ink: #0a1a33;
+  --color-ink-soft: #364152;
+  --color-muted: #6b7686;
+  --color-line: #e3e9f2;
+  --color-line-soft: #edf1f7;
+  --color-canvas: #e9f1fb;
+  --color-table-head: #eff3f8;
+
+  --color-primary: #0c6cf0;
+  --color-primary-hover: #0a5fd6;
+  --color-primary-strong: #0c60c0;
+  --color-primary-soft: #dceafc;
+  --color-primary-line: #a9cbf6;
+  --color-link: #1a73e8;
+
+  --color-sector-orange: #f06a1e;
+  --color-sector-green: #129c5a;
+  --color-sector-purple: #7250a8;
+  --color-sector-blue: #126cd8;
+  --color-sector-pink: #f0247e;
+
+  --color-ok: #08a050;
+  --color-ok-ink: #128a4e;
+  --color-ok-soft: #d4f1e4;
+  --color-warn: #f08a06;
+  --color-warn-ink: #e07b00;
+  --color-warn-soft: #fcefc2;
+  --color-danger: #f00c1e;
+  --color-danger-ink: #e0102a;
+  --color-danger-soft: #fcc8d2;
+  --color-neutral: #9aa3af;
+  --color-neutral-soft: #eef1f5;
+  --color-info: #7c4dff;
+  --color-info-soft: #ece5ff;
+
+  --shadow-card: 0 1px 2px rgb(15 45 82 / 0.04), 0 4px 14px rgb(15 45 82 / 0.06);
+  --shadow-pop: 0 10px 30px rgb(15 45 82 / 0.18);
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-canvas text-ink antialiased;
+    font-family: var(--font-sans);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]) {
+    cursor: pointer;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+}
+
+@layer utilities {
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(255 255 255 / 0.18) transparent;
+  }
+
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+}
